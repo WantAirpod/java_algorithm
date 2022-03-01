@@ -1,9 +1,15 @@
+package DfsBfs;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class 백준_7578_토마토 {
+
+
+
+
 
 
 //test
