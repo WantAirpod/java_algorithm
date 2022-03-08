@@ -37,7 +37,6 @@ public class 백준_7578_토마토 {
             str = br.readLine().split(" ");
             for (int j = 0; j < M; j++) {
                 arr[i][j] = Integer.parseInt(str[j]);
-
             }
         }
 
