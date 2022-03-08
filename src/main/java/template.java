@@ -11,8 +11,5 @@ public class template {
 
         int n= Integer.parseInt(st.nextToken());
 
-
-
-
     }
 }
