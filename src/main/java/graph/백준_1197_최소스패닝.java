@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
 
 /**
  * https://jellyinghead.tistory.com/86
- * 2022.03.08 
+ * 2022.03.08
  */
 public class 백준_1197_최소스패닝 {
     static int parent[];

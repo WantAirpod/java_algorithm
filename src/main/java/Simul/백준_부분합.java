@@ -1,3 +1,5 @@
+package Simul;
+
 public class 백준_부분합 {
 
     private static int N;
