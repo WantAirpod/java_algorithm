@@ -2,12 +2,12 @@ package SK_ICT;
 
 public class SK_2번_토네이도구현 {
     static int[][] map;
-    static int n = 5;
+    static int n = 6;
     //static int num = n-2;
     static int dirX = 0; //방금 끝났던 x 좌표
     static int dirY = 0; //방금 끝났던 y 좌표
 
-    static boolean clockwise = false;
+    static boolean clockwise = true;
     static int value = 2;
     static void setting(){
         map[0][0] = 1;
@@ -138,8 +138,6 @@ public class SK_2번_토네이도구현 {
                 ha(num);
                 num--;
             }
-
-
             //좌하단
             num = n-2;
             value = 2;
