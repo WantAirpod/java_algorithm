@@ -1,3 +1,5 @@
+package Simul;
+
 import java.util.Scanner;
 /*
 3
@@ -69,7 +71,6 @@ public class 백준_3085_사탕게임 {
                         if(check(newArr) > answer){
                             answer = check(newArr);
                         }
-
                         //newArr 원복
                         newArr = arr.clone();
                     }else if(arr[nx][ny] == arr[i][j]){
@@ -97,20 +98,8 @@ public class 백준_3085_사탕게임 {
             arr[i] = tempChar;
 
         }
-
-
-
         simul(arr);
         System.out.println(answer);
-
-
-
-
-
-
-
-
-
 
 
 
